@@ -12,3 +12,4 @@ vim.cmd("colorscheme everforest")
 
 --mappings
 vim.keymap.set('n', '<Leader>hm', ':Alpha<CR>')
+vim.keymap.set({'n', 'i', 'v'}, '<Leader>\\', ':Neotree toggle<CR>')
