@@ -25,7 +25,7 @@ return {
   	dashboard.button("f", " [~] Find file", ":Telescope find_files <CR>"),
    	dashboard.button("e", " [+] New file", ":ene <BAR> startinsert <CR>"),
    	dashboard.button("r", "󱋡 [>] Recently used files", ":Telescope oldfiles <CR>"),
-  	dashboard.button("c", " [o] Configuration", ":cd C:/Users/""username""/AppData/Local/nvim<CR> :e init.lua<CR>"),
+  	dashboard.button("c", " [o] Configuration", ":cd C:/Users//AppData/Local/nvim<CR> :e init.lua<CR>"),
    	dashboard.button("q", "󰈆 [x] Quit Neovim", ":qa<CR>"),
 }
 
